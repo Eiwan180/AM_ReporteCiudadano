@@ -1,0 +1,25 @@
+{
+  "tipos_reporte": [
+    "Selecciona el tipo de reporte…",
+    "ALUMBRADO PÚBLICO",
+    "ANIMALES CALLEJEROS O EN SITUACIÓN DE ABANDONO",
+    "BACHES",
+    "BASURA O ESCOMBRO",
+    "FUMIGACIÓN O PLAGAS",
+    "FUGAS O DRENAJE",
+    "OTRO ASUNTO"
+  ],
+  "colonias": [
+    "Selecciona una colonia…",
+    "CENTRO",
+    "LÁZARO CÁRDENAS",
+    "LAS FLORES",
+    "LOS PINOS",
+    "GUADALUPE",
+    "SAN ISIDRO",
+    "LA PALMA",
+    "EL RINCÓN",
+    "BUENAVISTA",
+    "OTRA COLONIA"
+  ]
+}

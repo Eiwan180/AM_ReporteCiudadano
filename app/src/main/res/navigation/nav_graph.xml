@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_reporte">
+
+    <fragment
+        android:id="@+id/menu_reporte"
+        android:name="mx.itson.am_reporteciudadano.ReportFragment"
+        android:label="Crear Reporte"
+        tools:layout="@layout/activity_report_fragment" />
+
+    <fragment
+        android:id="@+id/menu_contacto"
+        android:name="mx.itson.am_reporteciudadano.FragmentContact"
+        android:label="Contacto"
+        tools:layout="@layout/activity_fragment_contact" />
+
+</navigation>

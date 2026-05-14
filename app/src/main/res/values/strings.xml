@@ -1,3 +1,77 @@
 <resources>
     <string name="app_name">AM_ReporteCiudadano</string>
+    <string name="app_subtitle">Gobierno Municipal de Tangamandapio</string>
+    <string name="app_slogan">Trabajando para tu bienestar</string>
+    <string name="app_municipio">Tangamandapio, Michoacán</string>
+    <string name="gobierno_periodo">Gobierno Municipal 2024–2027</string>
+    <string name="footer_text">Gobierno Municipal de Tangamandapio  |  Trabajando para tu bienestar</string>
+
+    <string name="tab_crear_reporte">Crear Reporte</string>
+    <string name="tab_contacto">Contacto</string>
+
+    <string name="splash_cargando">Cargando…</string>
+
+    <string name="form_nombre">Nombre del interesado</string>
+    <string name="form_colonia">Colonia</string>
+    <string name="form_direccion">Dirección</string>
+    <string name="form_celular">Celular</string>
+    <string name="form_correo">Correo electrónico</string>
+    <string name="form_tipo_reporte">Tipo de reporte</string>
+    <string name="form_descripcion">Descripción</string>
+    <string name="form_imagen">Imagen / Evidencia del lugar</string>
+    <string name="btn_adjuntar_foto">Adjuntar / Tomar foto</string>
+    <string name="btn_enviar">ENVIAR REPORTE</string>
+    <string name="nota_envio">Tu reporte será procesado en un plazo de 5 días hábiles.</string>
+
+    <string name="contacto_titulo">Pantalla de Contacto</string>
+    <string name="contacto_subtitulo">Información y accesos directos del Gobierno Municipal</string>
+    <string name="contacto_dir_label">Dirección</string>
+    <string name="contacto_dir_valor">Palacio Municipal, Tangamandapio, Michoacán</string>
+    <string name="contacto_dir_accion">Abre la app de mapas con geolocalización de la dirección</string>
+    <string name="contacto_btn_mapa">Abrir Mapa</string>
+    <string name="contacto_email_label">Correo Electrónico</string>
+    <string name="contacto_email_valor">contacto@tangamandapio.gob.mx</string>
+    <string name="contacto_email_accion">Abre el cliente de correo con el remitente prellenado</string>
+    <string name="contacto_btn_correo">Enviar Correo</string>
+    <string name="contacto_tel_label">Teléfono</string>
+    <string name="contacto_tel_valor">(351) XXX-XXXX</string>
+    <string name="contacto_tel_accion">Inicia una llamada directa con el número municipal</string>
+    <string name="contacto_btn_llamar">Llamar</string>
+    <string name="contacto_horario">Horario de atención: Lunes a Viernes  8:00 – 15:00 hrs</string>
+
+    <string-array name="tipos_reporte_array">
+        <item>Selecciona el tipo de reporte…</item>
+        <item>ALUMBRADO PÚBLICO</item>
+        <item>ANIMALES CALLEJEROS O EN SITUACIÓN DE ABANDONO</item>
+        <item>BACHES</item>
+        <item>BASURA O ESCOMBRO</item>
+        <item>FUMIGACIÓN O PLAGAS</item>
+        <item>FUGAS O DRENAJE</item>
+        <item>OTRO ASUNTO</item>
+    </string-array>
+
+    <string-array name="colonias_array">
+        <item>Selecciona una colonia…</item>
+        <item>CENTRO</item>
+        <item>LÁZARO CÁRDENAS</item>
+        <item>LAS FLORES</item>
+        <item>LOS PINOS</item>
+        <item>GUADALUPE</item>
+        <item>SAN ISIDRO</item>
+        <item>LA PALMA</item>
+        <item>EL RINCÓN</item>
+        <item>BUENAVISTA</item>
+        <item>OTRA COLONIA</item>
+    </string-array>
+
+    <string name="error_campo_requerido">Este campo es obligatorio</string>
+    <string name="error_celular">Ingresa un número de 10 dígitos</string>
+    <string name="error_correo">Ingresa un correo electrónico válido</string>
+    <string name="error_colonia">Selecciona una colonia</string>
+    <string name="error_tipo">Selecciona un tipo de reporte</string>
+    <string name="error_sin_conexion">Sin conexión. Verifica tu internet e intenta de nuevo.</string>
+
+    <string name="exito_titulo">¡Reporte enviado!</string>
+    <string name="exito_mensaje">Tu reporte fue recibido exitosamente por el Gobierno Municipal de Tangamandapio. Te contactaremos en 5 días hábiles.</string>
+    <string name="btn_aceptar">Aceptar</string>
 </resources>

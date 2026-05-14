@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/brand_primary"
+    tools:context=".SplashScreen">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logo_tangamandapio"
+        android:scaleType="fitCenter"
+        android:contentDescription="Escudo de Tangamandapio"/>
+
+    <TextView
+        android:id="@+id/tvMunicipio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TANGAMANDAPIO"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.10"/>
+
+    <View
+        android:id="@+id/viewLineaOro"
+        android:layout_width="72dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/gold"/>
+
+    <TextView
+        android:id="@+id/tvGobierno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Gobierno Municipal 2024–2027"
+        android:textColor="#99F5E6C8"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Reporte Ciudadano"
+        android:textColor="@color/gold_light"
+        android:textSize="15sp"
+        android:textStyle="italic"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="36dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/gold"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Trabajando para tu bienestar"
+        android:textColor="#55F5E6C8"
+        android:textSize="11sp"
+        android:letterSpacing="0.05"/>
+
+</LinearLayout>

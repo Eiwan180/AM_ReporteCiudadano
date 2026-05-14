@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/brand_primary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacto"
+                android:textColor="@color/text_on_brand"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gobierno Municipal de Tangamandapio"
+                android:textColor="@color/gold_light"
+                android:textSize="12sp"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="2dp" android:background="@color/gold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/brand_primary"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:src="@drawable/logo_tangamandapio"
+                    android:contentDescription="Escudo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Información y accesos directos"
+                    android:textColor="@color/text_on_brand"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardDireccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="DIRECCIÓN" android:textColor="@color/brand_primary"
+                            android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.08"/>
+                        <TextView android:id="@+id/tvDireccion" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+                            android:text="Palacio Municipal, Tangamandapio, Michoacán"
+                            android:textColor="@color/text_primary" android:textSize="14sp"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnAbrirMapa" style="@style/Btn.Primary"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp" android:text="Abrir Mapa" app:icon="@drawable/ic_map_pin"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="CORREO ELECTRÓNICO" android:textColor="@color/gold_text"
+                            android:textSize="10sp" android:textStyle="bold"/>
+                        <TextView android:id="@+id/tvCorreo" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+                            android:text="contacto@tangamandapio.gob.mx" android:textSize="14sp"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnEnviarCorreo" style="@style/Btn.Gold"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp" android:text="Enviar Correo" app:icon="@drawable/ic_email"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Horario: Lunes a Viernes 8:00 - 15:00 hrs"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/brand_primary"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
